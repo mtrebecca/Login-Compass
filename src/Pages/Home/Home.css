@@ -1,0 +1,168 @@
+body{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.block-form{
+    min-width: 62vh;
+    display: flex;
+    height: 78%;
+    background: #fff;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    height: 65vh;
+}
+
+span{
+    font-size: 14px;
+    line-height: 16px;
+    color: #FF4B4B;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.react-datepicker-wrapper{
+    display: block !important;
+}
+
+label p{
+    font-size: 14px;
+    color: #767676;
+    margin: 0;
+    margin-bottom: 0.4rem;
+}
+
+.cont-two, .cont-three{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+input{
+    display: flex;
+    width: 100%;
+    border: 2px solid #AAAAAA;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: left;
+}
+
+input#name{
+    height: 3.2vh;
+}
+
+input#email, input#password{
+    min-width: 290px;
+    height: 3.2vh; 
+}
+
+input#phone, input#bitrth{
+    height: 3.2vh !important;
+    max-width: 150px; 
+}
+
+.cont-two {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding-right: 19px;
+}
+
+.cont-three {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.block.all {
+    display: flex;
+}
+
+label.label-two{
+    padding-top: 40px;
+}
+
+input#agree:checked{
+    background-color: #FF4B4B;
+}
+
+@media only screen and (max-width: 600px){
+
+    /* body{
+        overflow: scroll;
+    } */
+    .container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #fff;
+        padding-top: 3rem;
+    }
+
+    .block-form{
+        min-width: 100%;
+        display: flex;
+        height: auto;
+        background: #fff;
+        border-radius: 20px;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    form{
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+    }
+
+    .block.all {
+        display: block;
+    }
+
+    input#agree {
+        width: 10%;
+        zoom: 1.54;
+    }
+
+    input#name, input#email, input#password, input#phone, input#bitrth{
+        height: 4.2vh;
+    }
+
+
+    .cont-two{
+        display: flex;
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    .cont-three{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .cont-three label.label-two{
+        padding-top: 0;
+    }
+    .cont-four{
+        display: block;
+    }
+}

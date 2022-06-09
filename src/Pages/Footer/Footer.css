@@ -1,0 +1,83 @@
+.btn-submit button{
+    background: #0DBDBD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 14px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 18px;
+    cursor: pointer;
+
+}
+
+.btn-submit button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+input#agree{
+    width: 7%;
+    zoom: 2;
+}
+
+.term{
+    width: 100%;
+}
+
+.term label{
+    display: flex;
+    width: 90%;
+    margin-left: -7px;
+}
+
+span.span-term{
+    padding: 0px 2px;
+}
+
+label.term-cond{
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+p.term-serv{
+    color: #111111;
+    padding: 10px;
+    font-weight: 400;
+}
+.cont-four{
+    display: flex;
+    align-items: end;
+    height: 25%;
+}
+
+@media only screen and (max-width: 600px){
+    .footer{
+        width: 100%;
+    }
+
+    .cont-four{
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+
+    .btn-submit button{
+        width: 100%;
+        min-height: 60px;
+    }
+
+    .btn-submit{
+       padding-top: 1rem;
+    }
+    .term{
+        display: flex;
+        width: 100%;
+    }
+    span.span-term {
+        padding: 0px 6px;
+        margin-top: 40px;
+    }
+}

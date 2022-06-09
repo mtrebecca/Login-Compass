@@ -13,12 +13,4 @@ This challenge is a form where all fields must be filled in, after validating th
 ## :rocket: Running the project
 ![image](https://user-images.githubusercontent.com/61643695/172846571-c19108f8-2818-402a-ba0b-e98a08d5c556.png)
 
-```
-<linha de comando>
-```
 
-## :soon: Implementação futura
-* O que será implementado na próxima sprint?
-
-
-## :dart: Status do projeto

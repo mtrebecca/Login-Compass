@@ -6,7 +6,9 @@ This challenge is a form where all fields must be filled in, after validating th
 
 
 ## :wrench: Tecnologias utilizadas
-* Tecnologia;
+* ReactJS
+* Css
+* JS
 
 ## :rocket: Rodando o projeto
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
